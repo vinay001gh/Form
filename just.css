@@ -1,0 +1,85 @@
+.image{
+    border:rgb(4, 0, 255)  solid 10px;
+    margin: 30px;
+    background-color: black;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-clip-path: circle(49.9% at 51% 49%);
+    clip-path: circle(49.9% at 51% 49%);
+    border-spacing: 7px;
+}
+h1{
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+    border: rgb(4, 0, 255) solid 5px;
+    margin: 5px;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-spacing: 7px;
+    text-shadow: 10px 5px 10px pink;
+   text-decoration-line: underline;
+   
+}
+.main{
+    border:rgb(4, 0, 255) solid 10px ;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border-spacing: 7px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+font-size: larger;
+border-style: double;
+background-image: url(light.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,select{
+    width: 80%;
+   margin: 5px;
+   border: aqua solid 5px;
+   padding: 3px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+fieldset{
+    border: solid aqua 5px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+    text-decoration: blink;
+    text-shadow: 5px 2px 4px pink;
+
+}
+input[type="submit"]  {
+    width: 80%;
+    background-color: rgb(5, 73, 25);
+    color: white;
+    padding: 5px;
+    border: aqua solid 5px;
+    border-radius: 4px;
+    cursor: pointer;
+margin: 7px;
+margin-left: 75px;
+font-weight: bold;
+
+
+
+    }
+    input[type="submit"]:hover {
+        background-color: rgb(0, 255, 106);
+    }
+    .pro{
+        margin-left: 350px;
+    }
